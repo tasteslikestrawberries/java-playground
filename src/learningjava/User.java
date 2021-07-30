@@ -34,8 +34,8 @@ public class User implements PublicLibrary {
     String getAge() {
         return this.age;
     }
-    void setAge(User this, String age) { //setters define what you can do with name (class property)
-        this.age = age; //kad definiramo instancu usera,npr user1, taj user zove ovu metodu da bi settao name,npr 'Anja'
+    void setAge(User this, String age) { 
+        this.age = age; 
     }
 
     @Override
