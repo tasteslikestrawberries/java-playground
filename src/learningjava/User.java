@@ -14,11 +14,11 @@ public class User implements PublicLibrary {
         User.counter++;
     }
 //methods
-    //name getter/setter
+    //name getter/setter - getters allow us to get access the private class fields
     String getName() {
         return this.name;
     }
-    void setName(User this, String name) { //setters define what you can do with name (class property)
+    void setName(User this, String name) { //setters define what you can do with name (class field/property)
         this.name = name; //kad definiramo instancu usera,npr user1, taj user zove ovu metodu da bi settao name,npr 'Ana'
     }
 

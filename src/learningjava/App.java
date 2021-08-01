@@ -11,6 +11,7 @@ public class App {
         are created from classes at runtime. Objects of a class are
         called instances, and we create and initialize them with
         constructors: */
+        //creating variables type class User and calling constructor User()
         User user1 = new User("", "Anic", "23");
         User user2 = new User("Marko", "Markic", "12");
         User user3 = new User("Sara", "Saric", "5");
@@ -33,8 +34,19 @@ public class App {
         users.add(user3);
         users.add(user4);
 
-        for (User user: users) {
-            System.out.println(user.getName());
-        }
+        /*if Playground method is not static (connected to class),
+        we have to make a new instance of class (new class object) that calls Playground() constructor:
+        Playground obj = new Playground();
+        obj.getUppercaseWord("test");
+        obj.getLowercaseWord("TEST"); */
+
+        //if Playground method is static, we can just
+        Playground.Square(7);
+        Playground.Square(2.5);
+        Playground.getUppercaseWord("test");
+        Playground.getLowercaseWord("TEST");
+
+
+
     }
 }
