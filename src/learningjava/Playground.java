@@ -1,8 +1,6 @@
 
 package learningjava;
 
-import java.util.Locale;
-
 public class Playground {
     //example for method overloading when finding square of a number (same method name, different params type)
     //The Java compiler itself performs the appropriate Method Call for an object, based on

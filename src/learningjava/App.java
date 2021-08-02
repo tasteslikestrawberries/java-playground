@@ -6,6 +6,19 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
+
+        //creating and printing a String variable
+        String message = "Hello, Java!";
+        System.out.println(message);
+
+        //printing string literal
+        System.out.println("Learning");
+
+        //printing exercise
+        String a = "Today ";
+        String b = "is a beautiful ";
+        String c ="day!";
+        System.out.println(a+b+c);
   
         /* While classes are translated during compile time, objects
         are created from classes at runtime. Objects of a class are
@@ -45,8 +58,6 @@ public class App {
         Playground.Square(2.5);
         Playground.getUppercaseWord("test");
         Playground.getLowercaseWord("TEST");
-
-
 
     }
 }
