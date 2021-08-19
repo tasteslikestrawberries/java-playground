@@ -26,8 +26,7 @@ public class Greeter {
         //if (message.equals("potato")) {
         if (message.endsWith("s"))  {
             System.out.println("Cool, " + message.toLowerCase() + " are delicious!");
-        }
-        else  {
+        } else  {
             System.out.println("Cool, " + message.toLowerCase() + " is delicious!");
         }
 
