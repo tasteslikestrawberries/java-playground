@@ -5,7 +5,7 @@ import java.util.List;
 
 
 public class TodoList implements InterfaceTodoList {
-    List<String> list = new ArrayList();
+    List<String> list = new ArrayList<>();
 
     @Override
     public void add(String task) {
