@@ -2,6 +2,7 @@ package learningjava;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -58,6 +59,9 @@ public class App {
         Playground.Square(2.5);
         Playground.getUppercaseWord("test");
         Playground.getLowercaseWord("TEST");
+
+        //TodoList
+        Menu myMenu = new Menu(new TodoList(), new Scanner(System.in));
 
     }
 }
