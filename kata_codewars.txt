@@ -29,3 +29,13 @@ public class Bio {
     
 };
 };
+
+//remove specific characters in String
+For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+
+public class Troll {
+    public static String disemvowel(String str) {
+        String replaced = str.replaceAll("[aeiouAEIOU]", ""); 
+          return replaced;
+    }
+}
