@@ -1,0 +1,31 @@
+//string to array
+
+"Robin Singh" ==> ["Robin", "Singh"]
+"I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
+
+public class Solution {
+
+    public static String[] stringToArray(String s) {
+      
+     String[] array = s.split(" ");
+     
+      return array;
+       
+    }
+
+}
+
+//replace all occurences of character in String
+"GCAT"  =>  "GCAU"
+
+public class Bio {
+ public static String dnaToRna(String dna) {
+     
+        String rna = dna.replaceAll("T", "U");
+      
+          System.out.println(rna);
+          return rna;
+      
+    
+};
+};
