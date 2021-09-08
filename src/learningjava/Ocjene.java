@@ -30,7 +30,7 @@ public class Ocjene {
         } while (i<brojOcjena);
 
         System.out.println("Zbroj ocjena je: " + sum);
-        double prosjek = sum / brojOcjena;
+        double prosjek =  sum / brojOcjena;
         System.out.println("Prosjek ocjena je: " + prosjek);
     }
 }
