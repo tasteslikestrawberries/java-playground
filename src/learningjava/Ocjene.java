@@ -26,7 +26,7 @@ public class Ocjene {
             }
             System.out.println("Unijeli ste ocjenu: " + ocjena);
             sum += ocjena;
-            i++;
+            i++; //broji unos ocjene (koliko puta)
         } while (i<brojOcjena);
 
         System.out.println("Zbroj ocjena je: " + sum);
