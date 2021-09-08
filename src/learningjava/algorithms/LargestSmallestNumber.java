@@ -1,4 +1,4 @@
-package learningjava;
+package learningjava.algorithms;
 
 import java.util.Scanner;
 

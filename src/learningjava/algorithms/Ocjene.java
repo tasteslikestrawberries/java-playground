@@ -2,7 +2,7 @@
 //Omoguci unos 10 ocjena izmedju 1 i 5
 //Napravi izracun prosjecne ocjene i ispisi ga
 
-package learningjava;
+package learningjava.algorithms;
 
 import java.util.Scanner;
 

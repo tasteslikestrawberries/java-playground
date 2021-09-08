@@ -3,7 +3,7 @@
 //nadji najmanju vrijednost
 //nadji najvecu vrijednost
 
-package learningjava;
+package learningjava.algorithms;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
 //ako nije dvoznamenkast trazi ponovni unos
 //unos radi sve dok se ne unese 0
 //isprintaj djelitelje
-package learningjava;
+package learningjava.algorithms;
 
 import java.util.Scanner;
 

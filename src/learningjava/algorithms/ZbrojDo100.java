@@ -1,7 +1,7 @@
 //Unositi brojeve sve dok njihov zbroj ne doðe do 100.
 //Nakon toga napraviti ispis zbroja.
 
-package learningjava;
+package learningjava.algorithms;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class ZbrojDo100 {
 
             if(sum>100) {
                 System.out.println("Zbroj je veći od 100.");
-                continue;
+                break;
             }
 
             i++;
